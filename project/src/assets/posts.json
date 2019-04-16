@@ -1,9 +1,7 @@
-[
-  {
+[{
     "id": 1,
     "title": "Blog Post 1",
-    "text":
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, ex.",
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, ex.",
     "user": {
       "id": 1,
       "name": "Idris"
@@ -12,8 +10,7 @@
   {
     "id": 2,
     "title": "Blog Post 2",
-    "text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias impedit quo totam animi blanditiis sunt!",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias impedit quo totam animi blanditiis sunt!",
     "user": {
       "id": 1,
       "name": "Idris"
@@ -22,8 +19,7 @@
   {
     "id": 3,
     "title": "Blog Post 3",
-    "text":
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, ex.",
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, ex.",
     "user": {
       "id": 1,
       "name": "Idris"
@@ -41,8 +37,16 @@
   {
     "id": 5,
     "title": "Blog Post 5",
-    "text":
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, ex.",
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, ex.",
+    "user": {
+      "id": 2,
+      "name": "SomeUser"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Blog Post 6",
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, ex.",
     "user": {
       "id": 2,
       "name": "SomeUser"

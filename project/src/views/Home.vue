@@ -10,7 +10,6 @@
 import Banner from "@/components/Banner";
 import Articles from "@/components/articles/Index";
 import posts from "@/assets/posts.json";
-import axios from "axios";
 
 export default {
   components: {

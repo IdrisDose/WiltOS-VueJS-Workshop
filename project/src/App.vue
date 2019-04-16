@@ -24,8 +24,8 @@ export default {
 $primaryColor: #4384a1;
 $secondaryColor: #86bcda;
 $callToActionColor: #ffc551;
-$break-small: 320px;
-$break-large: 1200px;
+$break-small: 640px;
+$break-large: 1920px;
 
 /* RESET BASICS */
 * {
@@ -48,13 +48,9 @@ body {
 
 .row {
   display: inline-flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   /* Then we define how is distributed the remaining space */
   height: 100%;
-
-  @media screen and (max-width: $break-small) {
-    flex-flow: row wrap;
-  }
 }
 
 .col {
