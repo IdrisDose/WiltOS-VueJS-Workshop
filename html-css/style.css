@@ -1,0 +1,76 @@
+body {
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.wrapper {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+#header-section {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: #45acb1;
+  padding: 2rem;
+}
+
+.header-text {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#body-section {
+  padding: 3rem;
+  background-color: #333333;
+  color: #f2f2f2;
+}
+
+#grid-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column>p {
+  text-align: center;
+}
+
+.red {
+  background: red;
+}
+
+.purple {
+  background: purple;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.p-1 {
+  padding: 1rem;
+}
