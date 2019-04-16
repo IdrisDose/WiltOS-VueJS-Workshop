@@ -1,18 +1,27 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="wrapper">
+    <Banner/>
+    <Articles v-bind:articles="posts"/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+//@ is the same as ..
+import Banner from "@/components/Banner";
+import Articles from "@/components/articles/Index";
+import posts from "@/assets/posts.json";
+import axios from "axios";
 
 export default {
-  name: 'home',
   components: {
-    HelloWorld
+    Banner,
+    Articles
+  },
+  data() {
+    return {
+      posts
+    };
   }
-}
+};
 </script>
+
